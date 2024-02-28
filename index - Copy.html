@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <style>
+  .body {
+    background-image: url("home1.jpg");
+  }
   .about--options {
     display: flex;
     justify-content: center;
@@ -165,11 +168,11 @@
                 <a href="#education" onclick="toggleContent('education')">
                   <h3>Education</h3>
                 </a>
-                <a href="#philosophy" onclick="toggleContent('philosophy')">
-                  <h3>Philosophy</h3>
+                <a href="#philosophy" onclick="toggleContent('skills')">
+                  <h3>Skills</h3>
                 </a>
-                <a href="#history" onclick="toggleContent('history')">
-                  <h3>History</h3>
+                <a href="#history" onclick="toggleContent('personal information')">
+                  <h3>Personal Information</h3>
                 </a>
               </div>
               
@@ -178,13 +181,18 @@
                 <p>Information about education goes here.</p>
               </div>
               
-              <div class="about--content" id="philosophy">
-                <h2>Philosophy</h2>
-                <p>Information about philosophy goes here.</p>
+              <div class="about--content" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                  <li>Programming languages: Java, C++</li>
+                  <li>Web development: HTML, CSS, JavaScript</li>
+                  <li>Problem-solving and analytical skills</li>
+                </ul>
+                
               </div>
               
-              <div class="about--content" id="history">
-                <h2>History</h2>
+              <div class="about--content" id="personal information">
+                <h2>Personal Information</h2>
                 <p>Information about history goes here.</p>
               </div>
               
